@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Таблица</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .gray-back {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col />
+            <col class="gray-back" />
+            <col class="gray-back" />
+        </colgroup>
+        <tr>
+            <td rowspan="3">Ученик</td>
+            <td rowspan="3">Рост,<br> см</td>
+            <td rowspan="3">Вес,<br> кг</td>
+            <td colspan="4">Упражнение</td>
+        </tr>
+        <tr>
+            <td colspan="2">Прыжок в длину с места</td>
+            <td colspan="2">Бег на 1000 м</td>
+        </tr>
+        <tr>
+            <td>Результат, см</td>
+            <td>Оценка</td>
+            <td>Результат, с</td>
+            <td>Оценка</td>
+        </tr>
+        <tr>
+            <td>Баутин<br> Дима</td>
+            <td>168</td>
+            <td>56</td>
+            <td>197</td>
+            <td>5</td>
+            <td>220</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Голубев<br> Миша</td>
+            <td>159</td>
+            <td>48</td>
+            <td>178</td>
+            <td>4</td>
+            <td>263</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Куликов<br> Иван</td>
+            <td>164</td>
+            <td>60</td>
+            <td>159</td>
+            <td>3</td>
+            <td>306</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+</html>
